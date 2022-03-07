@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.github.rafaelcn.enotion</id>
+
+  <name>eNotion</name>
+  <summary>An embeded Notion application</summary>
+
+  <metadata_license>CC-BY-1.0</metadata_license>
+  <project_license>MIT</project_license>
+
+  <description>
+    <p>
+
+    </p>
+  </description>
+
+  <launchable type="desktop-id">com.github.rafaelcn.enotion.desktop</launchable>
+</component>

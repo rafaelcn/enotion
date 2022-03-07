@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=eNotion
+Comment=The embeded Notion app for Linux users
+
+Icon=com.github.rafaelcn.enotion
+Exec=com.github.rafaelcn.enotion
+Terminal=false
