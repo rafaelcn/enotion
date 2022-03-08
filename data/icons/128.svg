@@ -1,16 +1,71 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="128" height="128" viewBox="0 0 128 128" xml:space="preserve">
-<desc>Created with Fabric.js 4.2.0</desc>
-<defs>
-</defs>
-<rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
-<g transform="matrix(Infinity NaN NaN Infinity 0 0)" id="afa5a86c-d76a-4b26-a290-adcbc9b153a3"  >
-</g>
-<g transform="matrix(1 0 0 1 64 64)" id="23c13335-1861-4aad-9749-3ef186cb1b12"  >
-<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(26,48,63); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-64" y="-64" rx="0" ry="0" width="128" height="128" />
-</g>
-<g transform="matrix(0.5 0 0 0.5 64 64)" style="" id="6ea79b3f-6f59-4312-b682-8619ff83a861"  >
-		<text xml:space="preserve" font-family="Alegreya" font-size="200" font-style="normal" font-weight="500" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(161,234,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-114.9" y="62.83" >eN</tspan></text>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   version="1.1"
+   id="svg1170"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="128.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1172"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="4"
+     inkscape:cx="22.875"
+     inkscape:cy="81.875"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2161" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1167" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#f2f2f2;stroke-width:0;paint-order:stroke fill markers"
+       id="rect1728"
+       width="128"
+       height="128"
+       x="0"
+       y="0"
+       ry="20.161032" />
+    <g
+       transform="matrix(0.5,0,0,0.5,63.460453,65.79902)"
+       style="fill:#241f1c"
+       id="6ea79b3f-6f59-4312-b682-8619ff83a861">
+      <text
+         xml:space="preserve"
+         font-family="Alegreya"
+         font-size="200px"
+         font-style="normal"
+         font-weight="500"
+         style="white-space:pre;opacity:1;fill:#241f1c;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="text282"><tspan
+           x="-114.9"
+           y="62.830002"
+           id="tspan280"
+           style="fill:#241f1c">eN</tspan></text>
+    </g>
+  </g>
 </svg>
