@@ -2,3 +2,6 @@
 # Folders
 #
 build/
+
+.flatpak-builder/
+.vscode/
