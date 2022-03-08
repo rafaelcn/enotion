@@ -15,7 +15,7 @@ public class ENotion : Gtk.Application {
 
         var webview = new WebKit.WebView();
 
-        webview.load_uri("https://notion.so/login");
+        webview.load_uri("https://notion.so");
 
         webview.show();
 
@@ -23,7 +23,7 @@ public class ENotion : Gtk.Application {
         window.show_all();
     }
 
-    public static int main (string[] args) {
+    public static int main(string[] args) {
         var app = new ENotion();
         return app.run (args);
     }
