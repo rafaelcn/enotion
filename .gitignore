@@ -2,6 +2,7 @@
 # Folders
 #
 build/
+builddir/
 
 .flatpak-builder/
 .vscode/

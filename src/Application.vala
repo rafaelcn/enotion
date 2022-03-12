@@ -1,30 +1,30 @@
-public class ENotion : Gtk.Application {
-    public ENotion() {
-        Object (
-            application_id: "com.github.rafaelcn.enotion",
-            flags: ApplicationFlags.FLAGS_NONE
-        );
-    }
+namespace ENotion {
+    private ENotion.ApplicationWindow window = null;
 
-    protected override void activate() {
-        var window = new Gtk.ApplicationWindow (this) {
-            default_height = 700,
-            default_width = 1200,
-            title = "eNotion"
-        };
+    public class Application : Gtk.Application {
+        construct {
+            application_id = "com.github.rafaelcn.enotion";
+            flags = ApplicationFlags.FLAGS_NONE;
 
-        var webview = new WebKit.WebView();
+            var quit_action = new SimpleAction("quit", null);
 
-        webview.load_uri("https://notion.so");
+            add_action(quit_action);
 
-        webview.show();
+            quit_action.activate.connect(() => {
+                if (window != null) {
+                    window.destroy();
+                }
+            });
+        }
 
-        window.add(webview);
-        window.show_all();
+        protected override void activate() {
+            window = new ENotion.ApplicationWindow();
+            this.add_window(window);
+        }
     }
 
     public static int main(string[] args) {
-        var app = new ENotion();
-        return app.run (args);
+        var app = new Application();
+        return app.run(args);
     }
 }
