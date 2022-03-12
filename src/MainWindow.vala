@@ -21,7 +21,7 @@ namespace ENotion {
 
             headerbar.get_style_context().add_class("default-decoration");
 
-            var webview = new WebKit.WebView() {
+            webview = new WebKit.WebView() {
                 vexpand = true,
                 hexpand = true
             };
