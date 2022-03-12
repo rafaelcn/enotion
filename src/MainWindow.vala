@@ -13,10 +13,10 @@ namespace ENotion {
             default_height = (int)1.777777778*720;
 
             var headerbar = new Hdy.HeaderBar() {
+                hexpand = true,
                 has_subtitle = false,
                 show_close_button = true,
-                title = "eNotion",
-                hexpand = true
+                title = "eNotion"
             };
 
             headerbar.get_style_context().add_class("default-decoration");
@@ -31,8 +31,6 @@ namespace ENotion {
 
             var application_grid = new Gtk.Grid() {
                 orientation = Gtk.Orientation.VERTICAL,
-                hexpand = true,
-                vexpand = true
             };
 
             application_grid.add(headerbar);
