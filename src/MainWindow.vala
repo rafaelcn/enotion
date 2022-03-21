@@ -23,8 +23,13 @@ namespace ENotion {
 
             webview = new WebKit.WebView() {
                 vexpand = true,
-                hexpand = true
+                hexpand = true,
             };
+
+            var webview_settings = webview.get_settings();
+
+            webview_settings.enable_developer_extras = true;
+            webview_settings.allow_modal_dialogs = true;
 
             webview.load_uri("https://notion.so");
             webview.show();
